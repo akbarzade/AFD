@@ -41,11 +41,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
         // Saves changes in the application's managed object context before the application terminates.
-        self.saveContext()
+        
+        self.coreDataHelper.saveContext()
     }
 
     // MARK: - Core Data stack
-
+    // MARK: - Core Data Store
+    lazy var coreDataStore: CoreDataStore = {
+        let coreDataStore = CoreDataStore()
+        return coreDataStore
+    }()
+    
+    // MARK: - Core Data Helper
+    lazy var coreDataHelper: CoreDataHelper = {
+        let coreDataHelper = CoreDataHelper()
+        return coreDataHelper
+    }()
+    
+    /*
     lazy var applicationDocumentsDirectory: NSURL = {
         // The directory the application uses to store the Core Data store file. This code uses a directory named "com.akbarzade.AFD" in the application's documents Application Support directory.
         let urls = NSFileManager.defaultManager().URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask)
@@ -106,6 +119,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
     }
-
+*/
 }
 

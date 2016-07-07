@@ -1,0 +1,44 @@
+{
+	"Airport": [
+		{
+			"airportCountry": "Iran",
+			"airportICAO": "OIII",
+			"airportName": "Mehrabad International Airport",
+			"airportCity": "Tehran",
+			"airportIATA": "IKA",
+			"airportLocationLatitude": 35.0,
+			"airportLocationLongitude": 50.0,
+			"airportRunways": "General|RWY 29L"
+		},
+		{
+			"airportCountry": "Iran",
+			"airportICAO": "OIIE",
+			"airportName": "Imam Khomeini International Airport",
+			"airportCity": "Tehran",
+			"airportIATA": "THR",
+			"airportLocationLatitude": 35.0,
+			"airportLocationLongitude": 50.0,
+			"airportRunways": "General"
+		},
+		{
+			"airportCountry": "Iran",
+			"airportICAO": "OIMM",
+			"airportName": "Mashhad International Airport (Shahid Hashemi Nejad Airport)",
+			"airportCity": "Mashhad",
+			"airportIATA": "MHD",
+			"airportLocationLatitude": 35.0,
+			"airportLocationLongitude": 50.0,
+			"airportRunways": "General"
+		},
+		{
+			"airportCountry": "Iran",
+			"airportICAO": "MINE",
+			"airportName": "My Personal Airport",
+			"airportCity": "Karaj",
+			"airportIATA": "KRJ",
+			"airportLocationLatitude": 35.8346,
+			"airportLocationLongitude": 50.9887,
+			"airportRunways": "General"
+		}
+	]
+}

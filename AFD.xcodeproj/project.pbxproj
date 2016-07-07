@@ -8,22 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		7AE139B61D2EE52A008B6033 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE139B51D2EE52A008B6033 /* AppDelegate.swift */; };
-		7AE139B81D2EE52A008B6033 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE139B71D2EE52A008B6033 /* ViewController.swift */; };
 		7AE139BB1D2EE52A008B6033 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AE139B91D2EE52A008B6033 /* Main.storyboard */; };
-		7AE139BE1D2EE52A008B6033 /* AFD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7AE139BC1D2EE52A008B6033 /* AFD.xcdatamodeld */; };
 		7AE139C01D2EE52A008B6033 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AE139BF1D2EE52A008B6033 /* Assets.xcassets */; };
 		7AE139C31D2EE52A008B6033 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AE139C11D2EE52A008B6033 /* LaunchScreen.storyboard */; };
+		7AE139D31D2EE626008B6033 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE139D21D2EE626008B6033 /* MainViewController.swift */; };
+		7AE139DC1D2EE827008B6033 /* AFD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7AE139DA1D2EE826008B6033 /* AFD.xcdatamodeld */; };
+		7AE139DE1D2EE86C008B6033 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE139DD1D2EE86C008B6033 /* CoreDataHelper.swift */; };
+		7AE139E01D2EE87F008B6033 /* CoreDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE139DF1D2EE87F008B6033 /* CoreDataStore.swift */; };
+		7AE139E21D2EE892008B6033 /* AirportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE139E11D2EE892008B6033 /* AirportService.swift */; };
+		7AE139E41D2EE8A3008B6033 /* ChartService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE139E31D2EE8A3008B6033 /* ChartService.swift */; };
+		7AE139E61D2EE8BA008B6033 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE139E51D2EE8BA008B6033 /* ErrorHandler.swift */; };
+		7AE139EA1D2EE8E3008B6033 /* InterfaceHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE139E91D2EE8E3008B6033 /* InterfaceHandler.swift */; };
+		7AE139EC1D2EE8F9008B6033 /* LocationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE139EB1D2EE8F9008B6033 /* LocationHandler.swift */; };
+		7AE139EE1D2EE908008B6033 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE139ED1D2EE908008B6033 /* Manager.swift */; };
+		7AE139F01D2EE942008B6033 /* Airports.json in Resources */ = {isa = PBXBuildFile; fileRef = 7AE139EF1D2EE942008B6033 /* Airports.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7AE139B21D2EE529008B6033 /* AFD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AE139B51D2EE52A008B6033 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7AE139B71D2EE52A008B6033 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7AE139BA1D2EE52A008B6033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7AE139BD1D2EE52A008B6033 /* AFD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AFD.xcdatamodel; sourceTree = "<group>"; };
 		7AE139BF1D2EE52A008B6033 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AE139C21D2EE52A008B6033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7AE139C41D2EE52A008B6033 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AE139D21D2EE626008B6033 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = Controllers/MainViewController.swift; sourceTree = "<group>"; };
+		7AE139DB1D2EE826008B6033 /* AFD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AFD.xcdatamodel; sourceTree = "<group>"; };
+		7AE139DD1D2EE86C008B6033 /* CoreDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataHelper.swift; path = Helpers/CoreData/CoreDataHelper.swift; sourceTree = "<group>"; };
+		7AE139DF1D2EE87F008B6033 /* CoreDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataStore.swift; path = Helpers/CoreData/CoreDataStore.swift; sourceTree = "<group>"; };
+		7AE139E11D2EE892008B6033 /* AirportService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AirportService.swift; path = Helpers/CoreData/AirportService.swift; sourceTree = "<group>"; };
+		7AE139E31D2EE8A3008B6033 /* ChartService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChartService.swift; path = Helpers/CoreData/ChartService.swift; sourceTree = "<group>"; };
+		7AE139E51D2EE8BA008B6033 /* ErrorHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ErrorHandler.swift; path = Helpers/Handlers/ErrorHandler.swift; sourceTree = "<group>"; };
+		7AE139E91D2EE8E3008B6033 /* InterfaceHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InterfaceHandler.swift; path = Helpers/Handlers/InterfaceHandler.swift; sourceTree = "<group>"; };
+		7AE139EB1D2EE8F9008B6033 /* LocationHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationHandler.swift; path = Helpers/Handlers/LocationHandler.swift; sourceTree = "<group>"; };
+		7AE139ED1D2EE908008B6033 /* Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Helpers/Handlers/Manager.swift; sourceTree = "<group>"; };
+		7AE139EF1D2EE942008B6033 /* Airports.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Airports.json; path = CoreData/DataSources/Airports.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,144 @@
 		7AE139B41D2EE529008B6033 /* AFD */ = {
 			isa = PBXGroup;
 			children = (
+				7AE139CE1D2EE59E008B6033 /* Helpers */,
+				7AE139CD1D2EE596008B6033 /* CoreData */,
+				7AE139CC1D2EE591008B6033 /* Models */,
+				7AE139CB1D2EE588008B6033 /* Controllers */,
+				7AE139CA1D2EE57F008B6033 /* Views */,
 				7AE139B51D2EE52A008B6033 /* AppDelegate.swift */,
-				7AE139B71D2EE52A008B6033 /* ViewController.swift */,
-				7AE139B91D2EE52A008B6033 /* Main.storyboard */,
+				7AE139F11D2EEA6C008B6033 /* StoryBoard */,
 				7AE139BF1D2EE52A008B6033 /* Assets.xcassets */,
-				7AE139C11D2EE52A008B6033 /* LaunchScreen.storyboard */,
 				7AE139C41D2EE52A008B6033 /* Info.plist */,
-				7AE139BC1D2EE52A008B6033 /* AFD.xcdatamodeld */,
 			);
 			path = AFD;
+			sourceTree = "<group>";
+		};
+		7AE139CA1D2EE57F008B6033 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		7AE139CB1D2EE588008B6033 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7AE139D21D2EE626008B6033 /* MainViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		7AE139CC1D2EE591008B6033 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		7AE139CD1D2EE596008B6033 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				7AE139DA1D2EE826008B6033 /* AFD.xcdatamodeld */,
+				7AE139D11D2EE60E008B6033 /* DataSources */,
+				7AE139D01D2EE607008B6033 /* Models */,
+				7AE139CF1D2EE600008B6033 /* Entities */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		7AE139CE1D2EE59E008B6033 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7AE139D91D2EE65C008B6033 /* SeedData */,
+				7AE139D81D2EE656008B6033 /* Enums */,
+				7AE139D71D2EE650008B6033 /* Handlers */,
+				7AE139D61D2EE647008B6033 /* Extensions */,
+				7AE139D51D2EE63C008B6033 /* Constants */,
+				7AE139D41D2EE636008B6033 /* CoreData */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		7AE139CF1D2EE600008B6033 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		7AE139D01D2EE607008B6033 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		7AE139D11D2EE60E008B6033 /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				7AE139EF1D2EE942008B6033 /* Airports.json */,
+			);
+			name = DataSources;
+			sourceTree = "<group>";
+		};
+		7AE139D41D2EE636008B6033 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				7AE139DD1D2EE86C008B6033 /* CoreDataHelper.swift */,
+				7AE139DF1D2EE87F008B6033 /* CoreDataStore.swift */,
+				7AE139E11D2EE892008B6033 /* AirportService.swift */,
+				7AE139E31D2EE8A3008B6033 /* ChartService.swift */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		7AE139D51D2EE63C008B6033 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		7AE139D61D2EE647008B6033 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		7AE139D71D2EE650008B6033 /* Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				7AE139E51D2EE8BA008B6033 /* ErrorHandler.swift */,
+				7AE139E91D2EE8E3008B6033 /* InterfaceHandler.swift */,
+				7AE139EB1D2EE8F9008B6033 /* LocationHandler.swift */,
+				7AE139ED1D2EE908008B6033 /* Manager.swift */,
+			);
+			name = Handlers;
+			sourceTree = "<group>";
+		};
+		7AE139D81D2EE656008B6033 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Enums;
+			sourceTree = "<group>";
+		};
+		7AE139D91D2EE65C008B6033 /* SeedData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SeedData;
+			sourceTree = "<group>";
+		};
+		7AE139F11D2EEA6C008B6033 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				7AE139B91D2EE52A008B6033 /* Main.storyboard */,
+				7AE139C11D2EE52A008B6033 /* LaunchScreen.storyboard */,
+			);
+			name = StoryBoard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AE139C31D2EE52A008B6033 /* LaunchScreen.storyboard in Resources */,
+				7AE139F01D2EE942008B6033 /* Airports.json in Resources */,
 				7AE139C01D2EE52A008B6033 /* Assets.xcassets in Resources */,
 				7AE139BB1D2EE52A008B6033 /* Main.storyboard in Resources */,
 			);
@@ -139,9 +287,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AE139B81D2EE52A008B6033 /* ViewController.swift in Sources */,
-				7AE139BE1D2EE52A008B6033 /* AFD.xcdatamodeld in Sources */,
 				7AE139B61D2EE52A008B6033 /* AppDelegate.swift in Sources */,
+				7AE139DC1D2EE827008B6033 /* AFD.xcdatamodeld in Sources */,
+				7AE139EA1D2EE8E3008B6033 /* InterfaceHandler.swift in Sources */,
+				7AE139DE1D2EE86C008B6033 /* CoreDataHelper.swift in Sources */,
+				7AE139E41D2EE8A3008B6033 /* ChartService.swift in Sources */,
+				7AE139EC1D2EE8F9008B6033 /* LocationHandler.swift in Sources */,
+				7AE139D31D2EE626008B6033 /* MainViewController.swift in Sources */,
+				7AE139E61D2EE8BA008B6033 /* ErrorHandler.swift in Sources */,
+				7AE139EE1D2EE908008B6033 /* Manager.swift in Sources */,
+				7AE139E01D2EE87F008B6033 /* CoreDataStore.swift in Sources */,
+				7AE139E21D2EE892008B6033 /* AirportService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,7 +360,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -244,7 +400,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -257,6 +413,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AFD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.akbarzade.AFD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -268,6 +425,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AFD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.akbarzade.AFD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -293,17 +451,19 @@
 				7AE139C91D2EE52A008B6033 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		7AE139BC1D2EE52A008B6033 /* AFD.xcdatamodeld */ = {
+		7AE139DA1D2EE826008B6033 /* AFD.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				7AE139BD1D2EE52A008B6033 /* AFD.xcdatamodel */,
+				7AE139DB1D2EE826008B6033 /* AFD.xcdatamodel */,
 			);
-			currentVersion = 7AE139BD1D2EE52A008B6033 /* AFD.xcdatamodel */;
-			path = AFD.xcdatamodeld;
+			currentVersion = 7AE139DB1D2EE826008B6033 /* AFD.xcdatamodel */;
+			name = AFD.xcdatamodeld;
+			path = CoreData/AFD.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
