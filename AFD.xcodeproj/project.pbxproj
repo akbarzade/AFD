@@ -7,7 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7AE139B61D2EE52A008B6033 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE139B51D2EE52A008B6033 /* AppDelegate.swift */; };
+		7A3577801D2F35330077E5A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A35777F1D2F35330077E5A2 /* AppDelegate.swift */; };
+		7A3577821D2F35A80077E5A2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A3577811D2F35A80077E5A2 /* Info.plist */; };
+		7A3577841D2F36400077E5A2 /* PageIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3577831D2F36400077E5A2 /* PageIndicatorView.swift */; };
+		7A3577861D2F36AA0077E5A2 /* ChartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3577851D2F36AA0077E5A2 /* ChartTableViewCell.swift */; };
+		7A3577881D2F3D6F0077E5A2 /* OIII.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A3577871D2F3D6F0077E5A2 /* OIII.json */; };
+		7A35778A1D2F40510077E5A2 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3577891D2F40510077E5A2 /* AppState.swift */; };
+		7AB11FF81D2F06E3009C3160 /* Airport+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB11FEE1D2F06E3009C3160 /* Airport+CoreDataProperties.swift */; };
+		7AB11FFA1D2F06E3009C3160 /* ChartInfo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB11FF01D2F06E3009C3160 /* ChartInfo+CoreDataProperties.swift */; };
+		7AB11FFC1D2F06E3009C3160 /* Chart+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB11FF21D2F06E3009C3160 /* Chart+CoreDataProperties.swift */; };
+		7AB11FFE1D2F06E3009C3160 /* UserCustomize+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB11FF41D2F06E3009C3160 /* UserCustomize+CoreDataProperties.swift */; };
+		7AB120001D2F06E3009C3160 /* ChartContent+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB11FF61D2F06E3009C3160 /* ChartContent+CoreDataProperties.swift */; };
+		7AB120071D2F074D009C3160 /* Airport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB120021D2F074D009C3160 /* Airport.swift */; };
+		7AB120081D2F074D009C3160 /* Chart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB120031D2F074D009C3160 /* Chart.swift */; };
+		7AB120091D2F074D009C3160 /* ChartContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB120041D2F074D009C3160 /* ChartContent.swift */; };
+		7AB1200A1D2F074D009C3160 /* ChartInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB120051D2F074D009C3160 /* ChartInfo.swift */; };
+		7AB1200B1D2F074D009C3160 /* UserCustomize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB120061D2F074D009C3160 /* UserCustomize.swift */; };
+		7AB1200D1D2F142A009C3160 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB1200C1D2F142A009C3160 /* Constants.swift */; };
+		7AB1200F1D2F1440009C3160 /* NotificationKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB1200E1D2F1440009C3160 /* NotificationKeys.swift */; };
+		7AB120111D2F1457009C3160 /* UserDefaultsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB120101D2F1457009C3160 /* UserDefaultsKeys.swift */; };
+		7AB120131D2F1484009C3160 /* ChartPointerOrigin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB120121D2F1484009C3160 /* ChartPointerOrigin.swift */; };
+		7AB120151D2F14A8009C3160 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB120141D2F14A8009C3160 /* UserDefaults.swift */; };
+		7AB120171D2F14D6009C3160 /* SeedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB120161D2F14D6009C3160 /* SeedData.swift */; };
+		7AB120191D2F14F2009C3160 /* StatusBarHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB120181D2F14F2009C3160 /* StatusBarHandler.swift */; };
+		7AB1201B1D2F1504009C3160 /* LogHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB1201A1D2F1504009C3160 /* LogHandler.swift */; };
+		7AB1201D1D2F1526009C3160 /* ApplicationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB1201C1D2F1526009C3160 /* ApplicationHandler.swift */; };
+		7AB1201F1D2F1575009C3160 /* ErrorTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB1201E1D2F1575009C3160 /* ErrorTypes.swift */; };
+		7AB120211D2F1663009C3160 /* ChartType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB120201D2F1663009C3160 /* ChartType.swift */; };
 		7AE139BB1D2EE52A008B6033 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AE139B91D2EE52A008B6033 /* Main.storyboard */; };
 		7AE139C01D2EE52A008B6033 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AE139BF1D2EE52A008B6033 /* Assets.xcassets */; };
 		7AE139C31D2EE52A008B6033 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AE139C11D2EE52A008B6033 /* LaunchScreen.storyboard */; };
@@ -25,12 +51,37 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A35777F1D2F35330077E5A2 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = AppConfigurations/AppDelegate.swift; sourceTree = "<group>"; };
+		7A3577811D2F35A80077E5A2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = AppConfigurations/Info.plist; sourceTree = "<group>"; };
+		7A3577831D2F36400077E5A2 /* PageIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PageIndicatorView.swift; path = Views/PageIndicators/PageIndicatorView.swift; sourceTree = "<group>"; };
+		7A3577851D2F36AA0077E5A2 /* ChartTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChartTableViewCell.swift; path = Views/TerminalCharts/ChartTableViewCell.swift; sourceTree = "<group>"; };
+		7A3577871D2F3D6F0077E5A2 /* OIII.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = OIII.json; path = CoreData/DataSources/OIII.json; sourceTree = "<group>"; };
+		7A3577891D2F40510077E5A2 /* AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppState.swift; path = Helpers/Enums/AppState.swift; sourceTree = "<group>"; };
+		7AB11FEE1D2F06E3009C3160 /* Airport+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Airport+CoreDataProperties.swift"; path = "CoreData/Entities/Airport+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7AB11FF01D2F06E3009C3160 /* ChartInfo+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ChartInfo+CoreDataProperties.swift"; path = "CoreData/Entities/ChartInfo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7AB11FF21D2F06E3009C3160 /* Chart+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Chart+CoreDataProperties.swift"; path = "CoreData/Entities/Chart+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7AB11FF41D2F06E3009C3160 /* UserCustomize+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UserCustomize+CoreDataProperties.swift"; path = "CoreData/Entities/UserCustomize+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7AB11FF61D2F06E3009C3160 /* ChartContent+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ChartContent+CoreDataProperties.swift"; path = "CoreData/Entities/ChartContent+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7AB120021D2F074D009C3160 /* Airport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Airport.swift; path = CoreData/Models/Airport.swift; sourceTree = "<group>"; };
+		7AB120031D2F074D009C3160 /* Chart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Chart.swift; path = CoreData/Models/Chart.swift; sourceTree = "<group>"; };
+		7AB120041D2F074D009C3160 /* ChartContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChartContent.swift; path = CoreData/Models/ChartContent.swift; sourceTree = "<group>"; };
+		7AB120051D2F074D009C3160 /* ChartInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChartInfo.swift; path = CoreData/Models/ChartInfo.swift; sourceTree = "<group>"; };
+		7AB120061D2F074D009C3160 /* UserCustomize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserCustomize.swift; path = CoreData/Models/UserCustomize.swift; sourceTree = "<group>"; };
+		7AB1200C1D2F142A009C3160 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Helpers/Constants/Constants.swift; sourceTree = "<group>"; };
+		7AB1200E1D2F1440009C3160 /* NotificationKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NotificationKeys.swift; path = Helpers/Constants/NotificationKeys.swift; sourceTree = "<group>"; };
+		7AB120101D2F1457009C3160 /* UserDefaultsKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserDefaultsKeys.swift; path = Helpers/Constants/UserDefaultsKeys.swift; sourceTree = "<group>"; };
+		7AB120121D2F1484009C3160 /* ChartPointerOrigin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChartPointerOrigin.swift; path = Helpers/Enums/ChartPointerOrigin.swift; sourceTree = "<group>"; };
+		7AB120141D2F14A8009C3160 /* UserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserDefaults.swift; path = Helpers/Extensions/UserDefaults.swift; sourceTree = "<group>"; };
+		7AB120161D2F14D6009C3160 /* SeedData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SeedData.swift; path = Helpers/SeedData/SeedData.swift; sourceTree = "<group>"; };
+		7AB120181D2F14F2009C3160 /* StatusBarHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StatusBarHandler.swift; path = Helpers/Handlers/StatusBarHandler.swift; sourceTree = "<group>"; };
+		7AB1201A1D2F1504009C3160 /* LogHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LogHandler.swift; path = Helpers/Handlers/LogHandler.swift; sourceTree = "<group>"; };
+		7AB1201C1D2F1526009C3160 /* ApplicationHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApplicationHandler.swift; path = Helpers/Handlers/ApplicationHandler.swift; sourceTree = "<group>"; };
+		7AB1201E1D2F1575009C3160 /* ErrorTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ErrorTypes.swift; path = Helpers/Enums/ErrorTypes.swift; sourceTree = "<group>"; };
+		7AB120201D2F1663009C3160 /* ChartType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChartType.swift; path = Helpers/Enums/ChartType.swift; sourceTree = "<group>"; };
 		7AE139B21D2EE529008B6033 /* AFD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFD.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7AE139B51D2EE52A008B6033 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AE139BA1D2EE52A008B6033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7AE139BF1D2EE52A008B6033 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AE139C21D2EE52A008B6033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7AE139C41D2EE52A008B6033 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7AE139D21D2EE626008B6033 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = Controllers/MainViewController.swift; sourceTree = "<group>"; };
 		7AE139DB1D2EE826008B6033 /* AFD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AFD.xcdatamodel; sourceTree = "<group>"; };
 		7AE139DD1D2EE86C008B6033 /* CoreDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataHelper.swift; path = Helpers/CoreData/CoreDataHelper.swift; sourceTree = "<group>"; };
@@ -55,6 +106,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A3577781D2F34B70077E5A2 /* AppConfigurations */ = {
+			isa = PBXGroup;
+			children = (
+				7A3577811D2F35A80077E5A2 /* Info.plist */,
+				7A35777F1D2F35330077E5A2 /* AppDelegate.swift */,
+			);
+			name = AppConfigurations;
+			sourceTree = "<group>";
+		};
+		7A3577791D2F34C90077E5A2 /* MainExtensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = MainExtensions;
+			sourceTree = "<group>";
+		};
+		7A35777A1D2F34D10077E5A2 /* NavigationBarExtensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = NavigationBarExtensions;
+			sourceTree = "<group>";
+		};
+		7A35777B1D2F34D80077E5A2 /* StatusBarExtensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = StatusBarExtensions;
+			sourceTree = "<group>";
+		};
+		7A35777C1D2F34E00077E5A2 /* TerminalChartsExtensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = TerminalChartsExtensions;
+			sourceTree = "<group>";
+		};
+		7A35777D1D2F34F50077E5A2 /* PageIndicators */ = {
+			isa = PBXGroup;
+			children = (
+				7A3577831D2F36400077E5A2 /* PageIndicatorView.swift */,
+			);
+			name = PageIndicators;
+			sourceTree = "<group>";
+		};
+		7A35777E1D2F34FF0077E5A2 /* TerminalCharts */ = {
+			isa = PBXGroup;
+			children = (
+				7A3577851D2F36AA0077E5A2 /* ChartTableViewCell.swift */,
+			);
+			name = TerminalCharts;
+			sourceTree = "<group>";
+		};
 		7AE139A91D2EE529008B6033 = {
 			isa = PBXGroup;
 			children = (
@@ -74,15 +178,14 @@
 		7AE139B41D2EE529008B6033 /* AFD */ = {
 			isa = PBXGroup;
 			children = (
+				7A3577781D2F34B70077E5A2 /* AppConfigurations */,
 				7AE139CE1D2EE59E008B6033 /* Helpers */,
 				7AE139CD1D2EE596008B6033 /* CoreData */,
 				7AE139CC1D2EE591008B6033 /* Models */,
 				7AE139CB1D2EE588008B6033 /* Controllers */,
 				7AE139CA1D2EE57F008B6033 /* Views */,
-				7AE139B51D2EE52A008B6033 /* AppDelegate.swift */,
 				7AE139F11D2EEA6C008B6033 /* StoryBoard */,
 				7AE139BF1D2EE52A008B6033 /* Assets.xcassets */,
-				7AE139C41D2EE52A008B6033 /* Info.plist */,
 			);
 			path = AFD;
 			sourceTree = "<group>";
@@ -90,6 +193,8 @@
 		7AE139CA1D2EE57F008B6033 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				7A35777E1D2F34FF0077E5A2 /* TerminalCharts */,
+				7A35777D1D2F34F50077E5A2 /* PageIndicators */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -97,6 +202,10 @@
 		7AE139CB1D2EE588008B6033 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				7A35777C1D2F34E00077E5A2 /* TerminalChartsExtensions */,
+				7A35777B1D2F34D80077E5A2 /* StatusBarExtensions */,
+				7A35777A1D2F34D10077E5A2 /* NavigationBarExtensions */,
+				7A3577791D2F34C90077E5A2 /* MainExtensions */,
 				7AE139D21D2EE626008B6033 /* MainViewController.swift */,
 			);
 			name = Controllers;
@@ -123,12 +232,12 @@
 		7AE139CE1D2EE59E008B6033 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				7AE139D91D2EE65C008B6033 /* SeedData */,
-				7AE139D81D2EE656008B6033 /* Enums */,
-				7AE139D71D2EE650008B6033 /* Handlers */,
-				7AE139D61D2EE647008B6033 /* Extensions */,
 				7AE139D51D2EE63C008B6033 /* Constants */,
 				7AE139D41D2EE636008B6033 /* CoreData */,
+				7AE139D81D2EE656008B6033 /* Enums */,
+				7AE139D61D2EE647008B6033 /* Extensions */,
+				7AE139D71D2EE650008B6033 /* Handlers */,
+				7AE139D91D2EE65C008B6033 /* SeedData */,
 			);
 			name = Helpers;
 			sourceTree = "<group>";
@@ -136,6 +245,11 @@
 		7AE139CF1D2EE600008B6033 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
+				7AB11FEE1D2F06E3009C3160 /* Airport+CoreDataProperties.swift */,
+				7AB11FF21D2F06E3009C3160 /* Chart+CoreDataProperties.swift */,
+				7AB11FF61D2F06E3009C3160 /* ChartContent+CoreDataProperties.swift */,
+				7AB11FF01D2F06E3009C3160 /* ChartInfo+CoreDataProperties.swift */,
+				7AB11FF41D2F06E3009C3160 /* UserCustomize+CoreDataProperties.swift */,
 			);
 			name = Entities;
 			sourceTree = "<group>";
@@ -143,6 +257,11 @@
 		7AE139D01D2EE607008B6033 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				7AB120021D2F074D009C3160 /* Airport.swift */,
+				7AB120031D2F074D009C3160 /* Chart.swift */,
+				7AB120041D2F074D009C3160 /* ChartContent.swift */,
+				7AB120051D2F074D009C3160 /* ChartInfo.swift */,
+				7AB120061D2F074D009C3160 /* UserCustomize.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -150,6 +269,7 @@
 		7AE139D11D2EE60E008B6033 /* DataSources */ = {
 			isa = PBXGroup;
 			children = (
+				7A3577871D2F3D6F0077E5A2 /* OIII.json */,
 				7AE139EF1D2EE942008B6033 /* Airports.json */,
 			);
 			name = DataSources;
@@ -169,6 +289,9 @@
 		7AE139D51D2EE63C008B6033 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				7AB1200C1D2F142A009C3160 /* Constants.swift */,
+				7AB1200E1D2F1440009C3160 /* NotificationKeys.swift */,
+				7AB120101D2F1457009C3160 /* UserDefaultsKeys.swift */,
 			);
 			name = Constants;
 			sourceTree = "<group>";
@@ -176,6 +299,7 @@
 		7AE139D61D2EE647008B6033 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				7AB120141D2F14A8009C3160 /* UserDefaults.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -187,6 +311,9 @@
 				7AE139E91D2EE8E3008B6033 /* InterfaceHandler.swift */,
 				7AE139EB1D2EE8F9008B6033 /* LocationHandler.swift */,
 				7AE139ED1D2EE908008B6033 /* Manager.swift */,
+				7AB120181D2F14F2009C3160 /* StatusBarHandler.swift */,
+				7AB1201A1D2F1504009C3160 /* LogHandler.swift */,
+				7AB1201C1D2F1526009C3160 /* ApplicationHandler.swift */,
 			);
 			name = Handlers;
 			sourceTree = "<group>";
@@ -194,6 +321,10 @@
 		7AE139D81D2EE656008B6033 /* Enums */ = {
 			isa = PBXGroup;
 			children = (
+				7AB120121D2F1484009C3160 /* ChartPointerOrigin.swift */,
+				7AB1201E1D2F1575009C3160 /* ErrorTypes.swift */,
+				7AB120201D2F1663009C3160 /* ChartType.swift */,
+				7A3577891D2F40510077E5A2 /* AppState.swift */,
 			);
 			name = Enums;
 			sourceTree = "<group>";
@@ -201,6 +332,7 @@
 		7AE139D91D2EE65C008B6033 /* SeedData */ = {
 			isa = PBXGroup;
 			children = (
+				7AB120161D2F14D6009C3160 /* SeedData.swift */,
 			);
 			name = SeedData;
 			sourceTree = "<group>";
@@ -276,6 +408,8 @@
 				7AE139C31D2EE52A008B6033 /* LaunchScreen.storyboard in Resources */,
 				7AE139F01D2EE942008B6033 /* Airports.json in Resources */,
 				7AE139C01D2EE52A008B6033 /* Assets.xcassets in Resources */,
+				7A3577881D2F3D6F0077E5A2 /* OIII.json in Resources */,
+				7A3577821D2F35A80077E5A2 /* Info.plist in Resources */,
 				7AE139BB1D2EE52A008B6033 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,17 +421,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AE139B61D2EE52A008B6033 /* AppDelegate.swift in Sources */,
+				7A3577801D2F35330077E5A2 /* AppDelegate.swift in Sources */,
+				7AB1200D1D2F142A009C3160 /* Constants.swift in Sources */,
 				7AE139DC1D2EE827008B6033 /* AFD.xcdatamodeld in Sources */,
+				7AB1201D1D2F1526009C3160 /* ApplicationHandler.swift in Sources */,
+				7AB11FF81D2F06E3009C3160 /* Airport+CoreDataProperties.swift in Sources */,
+				7AB120151D2F14A8009C3160 /* UserDefaults.swift in Sources */,
+				7AB120111D2F1457009C3160 /* UserDefaultsKeys.swift in Sources */,
 				7AE139EA1D2EE8E3008B6033 /* InterfaceHandler.swift in Sources */,
+				7AB1200A1D2F074D009C3160 /* ChartInfo.swift in Sources */,
 				7AE139DE1D2EE86C008B6033 /* CoreDataHelper.swift in Sources */,
+				7A3577841D2F36400077E5A2 /* PageIndicatorView.swift in Sources */,
 				7AE139E41D2EE8A3008B6033 /* ChartService.swift in Sources */,
+				7AB11FFC1D2F06E3009C3160 /* Chart+CoreDataProperties.swift in Sources */,
+				7AB11FFA1D2F06E3009C3160 /* ChartInfo+CoreDataProperties.swift in Sources */,
+				7AB120001D2F06E3009C3160 /* ChartContent+CoreDataProperties.swift in Sources */,
 				7AE139EC1D2EE8F9008B6033 /* LocationHandler.swift in Sources */,
+				7A35778A1D2F40510077E5A2 /* AppState.swift in Sources */,
+				7AB1200B1D2F074D009C3160 /* UserCustomize.swift in Sources */,
 				7AE139D31D2EE626008B6033 /* MainViewController.swift in Sources */,
+				7A3577861D2F36AA0077E5A2 /* ChartTableViewCell.swift in Sources */,
+				7AB120191D2F14F2009C3160 /* StatusBarHandler.swift in Sources */,
 				7AE139E61D2EE8BA008B6033 /* ErrorHandler.swift in Sources */,
+				7AB120171D2F14D6009C3160 /* SeedData.swift in Sources */,
 				7AE139EE1D2EE908008B6033 /* Manager.swift in Sources */,
 				7AE139E01D2EE87F008B6033 /* CoreDataStore.swift in Sources */,
+				7AB1201B1D2F1504009C3160 /* LogHandler.swift in Sources */,
+				7AB120081D2F074D009C3160 /* Chart.swift in Sources */,
+				7AB120131D2F1484009C3160 /* ChartPointerOrigin.swift in Sources */,
+				7AB1200F1D2F1440009C3160 /* NotificationKeys.swift in Sources */,
+				7AB120071D2F074D009C3160 /* Airport.swift in Sources */,
 				7AE139E21D2EE892008B6033 /* AirportService.swift in Sources */,
+				7AB1201F1D2F1575009C3160 /* ErrorTypes.swift in Sources */,
+				7AB11FFE1D2F06E3009C3160 /* UserCustomize+CoreDataProperties.swift in Sources */,
+				7AB120211D2F1663009C3160 /* ChartType.swift in Sources */,
+				7AB120091D2F074D009C3160 /* ChartContent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
