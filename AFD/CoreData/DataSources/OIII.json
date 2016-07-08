@@ -87,7 +87,7 @@
 		},
 		{
 			"airportICAO": "OIII",
-			"chartType": 3,
+			"chartType": 2,
 			"isLocational": false,
 			"chartIndex": "10-2",
 			"chartDescription": "BOXAM 1P, 1R, 1V & 1Z, DEHNAMAK 1P & 1V",
@@ -104,7 +104,7 @@
 		},
 		{
 			"airportICAO": "OIII",
-			"chartType": 3,
+			"chartType": 2,
 			"isLocational": false,
 			"chartIndex": "10-2A",
 			"chartDescription": "MIVAK 1R & 1Z, NAGMO 1R & 1V",
@@ -121,7 +121,7 @@
 		},
 		{
 			"airportICAO": "OIII",
-			"chartType": 3,
+			"chartType": 2,
 			"isLocational": false,
 			"chartIndex": "10-2B",
 			"chartDescription": "PAVET & PAXID 1R & 1Z",
@@ -138,7 +138,7 @@
 		},
 		{
 			"airportICAO": "OIII",
-			"chartType": 3,
+			"chartType": 2,
 			"isLocational": false,
 			"chartIndex": "10-2C",
 			"chartDescription": "RADAL 1P, 1R & 1V, RUDESHUR 1V & 1Z",
@@ -155,7 +155,7 @@
 		},
 		{
 			"airportICAO": "OIII",
-			"chartType": 3,
+			"chartType": 2,
 			"isLocational": false,
 			"chartIndex": "10-2D",
 			"chartDescription": "SAVEH 1N, 1R & 1Z, VARAMIN 1R & 1Z",
@@ -172,7 +172,7 @@
 		},
 		{
 			"airportICAO": "OIII",
-			"chartType": 4,
+			"chartType": 3,
 			"isLocational": true,
 			"chartIndex": "13-1",
 			"chartDescription": "Circling VOR DME 3 Rwy 11L\/R",
@@ -190,7 +190,7 @@
 		},
 		{
 			"airportICAO": "OIII",
-			"chartType": 4,
+			"chartType": 3,
 			"isLocational": true,
 			"chartIndex": "13-4",
 			"chartDescription": "Circling VOR DME-1",
@@ -208,7 +208,7 @@
 		},
 		{
 			"airportICAO": "OIII",
-			"chartType": 4,
+			"chartType": 3,
 			"isLocational": true,
 			"chartIndex": "13-5",
 			"chartDescription": "Circling VOR DME-2",
@@ -226,7 +226,7 @@
 		},
 		{
 			"airportICAO": "OIII",
-			"chartType": 4,
+			"chartType": 3,
 			"isLocational": true,
 			"chartIndex": "16-1",
 			"chartDescription": "NDB DME (CIRCLING)",
@@ -244,7 +244,7 @@
 		},
 		{
 			"airportICAO": "OIII",
-			"chartType": 4,
+			"chartType": 3,
 			"isLocational": true,
 			"chartIndex": "11-1",
 			"chartDescription": "ILS-1 Rwy 29L",
@@ -262,7 +262,7 @@
 		},
 		{
 			"airportICAO": "OIII",
-			"chartType": 4,
+			"chartType": 3,
 			"isLocational": true,
 			"chartIndex": "11-2",
 			"chartDescription": "ILS-2 Rwy 29L",
@@ -280,7 +280,7 @@
 		},
 		{
 			"airportICAO": "OIII",
-			"chartType": 4,
+			"chartType": 3,
 			"isLocational": true,
 			"chartIndex": "11-3",
 			"chartDescription": "ILS-3 Rwy 29L",
@@ -298,7 +298,7 @@
 		},
 		{
 			"airportICAO": "OIII",
-			"chartType": 4,
+			"chartType": 3,
 			"isLocational": true,
 			"chartIndex": "11-4",
 			"chartDescription": "ILS-4 Rwy 29L",
@@ -316,7 +316,7 @@
 		},
 		{
 			"airportICAO": "OIII",
-			"chartType": 4,
+			"chartType": 3,
 			"isLocational": true,
 			"chartIndex": "13-2",
 			"chartDescription": "VOR DME 1 Rwy 29L",
@@ -334,7 +334,7 @@
 		},
 		{
 			"airportICAO": "OIII",
-			"chartType": 4,
+			"chartType": 3,
 			"isLocational": true,
 			"chartIndex": "13-3",
 			"chartDescription": "VOR DME-2 Rwy 29L",
@@ -352,7 +352,7 @@
 		},
 		{
 			"airportICAO": "OIII",
-			"chartType": 5,
+			"chartType": 4,
 			"isLocational": true,
 			"chartIndex": "10-9",
 			"chartDescription": "Airport",
@@ -369,7 +369,7 @@
 		},
 		{
 			"airportICAO": "OIII",
-			"chartType": 5,
+			"chartType": 4,
 			"isLocational": false,
 			"chartIndex": "10-9A",
 			"chartDescription": "Parking Coords, Airport Info, Take-Off Mnms",
@@ -386,7 +386,7 @@
 		},
 		{
 			"airportICAO": "OIII",
-			"chartType": 5,
+			"chartType": 4,
 			"isLocational": false,
 			"chartIndex": "10-9B",
 			"chartDescription": "PARKING Stands",
@@ -403,7 +403,7 @@
 		},
 		{
 			"airportICAO": "OIII",
-			"chartType": 5,
+			"chartType": 4,
 			"isLocational": false,
 			"chartIndex": "10-9C",
 			"chartDescription": "Parking Stands Contd",
@@ -420,7 +420,7 @@
 		},
 		{
 			"airportICAO": "OIII",
-			"chartType": 5,
+			"chartType": 4,
 			"isLocational": false,
 			"chartIndex": "10-9S",
 			"chartDescription": "Standard Mnms",
@@ -437,7 +437,7 @@
 		},
 		{
 			"airportICAO": "OIII",
-			"chartType": 5,
+			"chartType": 4,
 			"isLocational": true,
 			"chartIndex": "KIAU",
 			"chartDescription": "KIAU",
@@ -454,7 +454,7 @@
 		},
 		{
 			"airportICAO": "OIII",
-			"chartType": 5,
+			"chartType": 4,
 			"isLocational": true,
 			"chartIndex": "KIAUB",
 			"chartDescription": "KIAU B",
@@ -475,7 +475,7 @@
 		},
 		{
 			"airportICAO": "OIII",
-			"chartType": 5,
+			"chartType": 4,
 			"isLocational": true,
 			"chartIndex": "KARAJ",
 			"chartDescription": "KARAJ",
@@ -492,7 +492,7 @@
 		},
 		{
 			"airportICAO": "OIII",
-			"chartType": 5,
+			"chartType": 4,
 			"isLocational": true,
 			"chartIndex": "KARAJB",
 			"chartDescription": "KARAJ B",
@@ -513,7 +513,7 @@
 		},
 		{
 			"airportICAO": "OIII",
-			"chartType": 5,
+			"chartType": 4,
 			"isLocational": true,
 			"chartIndex": "GolShahr",
 			"chartDescription": "GolShahr",
@@ -530,7 +530,7 @@
 		},
 		{
 			"airportICAO": "OIII",
-			"chartType": 5,
+			"chartType": 4,
 			"isLocational": true,
 			"chartIndex": "GolShahrB",
 			"chartDescription": "GolShahr B",
@@ -551,7 +551,7 @@
 		},
 		{
 			"airportICAO": "OIII",
-			"chartType": 6,
+			"chartType": 5,
 			"isLocational": false,
 			"chartIndex": "10-3",
 			"chartDescription": "DAXIL 1A & 1B, DEHNAMAK 3A, 3B & 2C",
@@ -568,7 +568,7 @@
 		},
 		{
 			"airportICAO": "OIII",
-			"chartType": 6,
+			"chartType": 5,
 			"isLocational": false,
 			"chartIndex": "10-3A",
 			"chartDescription": "EGVEL 2A & 2B, NAGMO 1A & 1B",
@@ -585,7 +585,7 @@
 		},
 		{
 			"airportICAO": "OIII",
-			"chartType": 6,
+			"chartType": 5,
 			"isLocational": false,
 			"chartIndex": "10-3B",
 			"chartDescription": "PAROT 3A, 3B & 4C, PAVET 2A, 2B & 3C",
@@ -602,7 +602,7 @@
 		},
 		{
 			"airportICAO": "OIII",
-			"chartType": 6,
+			"chartType": 5,
 			"isLocational": false,
 			"chartIndex": "10-3C",
 			"chartDescription": "PAXID 3A & 3B",
@@ -619,7 +619,7 @@
 		},
 		{
 			"airportICAO": "OIII",
-			"chartType": 6,
+			"chartType": 5,
 			"isLocational": false,
 			"chartIndex": "10-3D",
 			"chartDescription": "RADAL 2A, 2B & 2C, RUDESHUR 2A & 2B",
@@ -636,7 +636,7 @@
 		},
 		{
 			"airportICAO": "OIII",
-			"chartType": 6,
+			"chartType": 5,
 			"isLocational": false,
 			"chartIndex": "10-3E",
 			"chartDescription": "SAVEH 2A, 2B & 3C, VARAMIN 1A & 1B",

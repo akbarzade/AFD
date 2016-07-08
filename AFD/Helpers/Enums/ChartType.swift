@@ -10,28 +10,27 @@ import Foundation
 
 enum ChartType : Int {
   case REF = 1
-  case CO = 2
-  case STAR = 3
-  case APP = 4
-  case TAXI = 5
-  case SID = 6
+  case STAR = 2
+  case APP = 3
+  case TAXI = 4
+  case SID = 5
+  case CO = 6
   
   func TypeIndex() -> Int {
     LogHandler.Log()
     switch self {
     case .REF:
       return 1
-    case .CO:
-      return 2
     case .STAR:
-      return 3
+      return 2
     case .APP:
-      return 4
+      return 3
     case .TAXI:
-      return 5
+      return 4
     case .SID:
+      return 5
+    case .CO:
       return 6
-
     }
   }
   
@@ -40,8 +39,6 @@ enum ChartType : Int {
     switch self {
     case .REF:
       return "REFERENCE Charts"
-    case .CO:
-      return "COMPANY Charts"
     case .STAR:
       return "ARRIVALS Charts"
     case .APP:
@@ -50,6 +47,8 @@ enum ChartType : Int {
       return "TAXI Charts"
     case .SID:
       return "DEPARTURES Charts"
+    case .CO:
+      return "COMPANY Charts"
     }
   }
 }
