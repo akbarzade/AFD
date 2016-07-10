@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MainViewController: UIViewController {
+class MainViewController: UIViewController , UIPopoverPresentationControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,5 +31,41 @@ class MainViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+  
+  // MARK: - Outlets
+  @IBOutlet weak var MainFrameStackView: UIStackView!
 
+  
+  
+  // MARK: - Left Side Navigation Bar
+  // MARK: Actions's
+  
+  // All the Action's for Left Side Navigation Bar are Implemented in MainViewController Extension available in MainExtensions Group MainViewLeftNavigationBarHandler
+  
+  // MARK: Outlet's
+  
+  ///leftNavigationBarCirclePointer
+  @IBOutlet weak var circlePointerLabel: UILabel!
+  
+  ///leftNavigationBarICAOButton
+  @IBOutlet weak var leftNavigationBarICAO: UIButton!
+		
+  ///leftNavigationBarREFButton
+  @IBOutlet weak var leftNavigationBarREF: UIButton!
+  
+  ///leftNavigationBarSTARButton
+  @IBOutlet weak var leftNavigationBarSTAR: UIButton!
+  
+  ///leftNavigationBarAPPButton
+  @IBOutlet weak var leftNavigationBarAPP: UIButton!
+  
+  ///leftNavigationBarTAXIButton
+  @IBOutlet weak var leftNavigationBarTAXI: UIButton!
+  
+  ///leftNavigationBarSIDButton
+  @IBOutlet weak var leftNavigationBarSID: UIButton!
+  
+  ///leftNavigationBarWxButton
+  @IBOutlet weak var leftNavigationBarWx: UIButton!
+  
 }

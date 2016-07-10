@@ -13,6 +13,22 @@
 		7A3577861D2F36AA0077E5A2 /* ChartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3577851D2F36AA0077E5A2 /* ChartTableViewCell.swift */; };
 		7A3577881D2F3D6F0077E5A2 /* OIII.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A3577871D2F3D6F0077E5A2 /* OIII.json */; };
 		7A35778A1D2F40510077E5A2 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3577891D2F40510077E5A2 /* AppState.swift */; };
+		7A7B18A81D326AD10014155F /* MainViewLeftNavigationBarHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B18A71D326AD10014155F /* MainViewLeftNavigationBarHandler.swift */; };
+		7A7B18AC1D326E070014155F /* AirportsTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B18AB1D326E070014155F /* AirportsTabBarViewController.swift */; };
+		7A7B18AF1D327D260014155F /* TapGestureHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B18AE1D327D260014155F /* TapGestureHandler.swift */; };
+		7A7B18B11D327D350014155F /* LongPressGestureHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B18B01D327D350014155F /* LongPressGestureHandler.swift */; };
+		7A7B18B31D327D430014155F /* PanGestureHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B18B21D327D430014155F /* PanGestureHandler.swift */; };
+		7A7B18B51D327D530014155F /* PinchGestureHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B18B41D327D530014155F /* PinchGestureHandler.swift */; };
+		7A7B18B71D327D680014155F /* SwipeGestureHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B18B61D327D680014155F /* SwipeGestureHandler.swift */; };
+		7A7B18B91D327E3E0014155F /* MainSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B18B81D327E3E0014155F /* MainSegue.swift */; };
+		7A7B18BB1D327EA90014155F /* MainViewInterfaceHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B18BA1D327EA90014155F /* MainViewInterfaceHandlers.swift */; };
+		7A7B18BD1D3282220014155F /* StatusBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B18BC1D3282220014155F /* StatusBarViewController.swift */; };
+		7A7B18BF1D3282720014155F /* SettingsPopOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B18BE1D3282720014155F /* SettingsPopOverViewController.swift */; };
+		7A7B18C11D3282AA0014155F /* LocationPopOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B18C01D3282AA0014155F /* LocationPopOverViewController.swift */; };
+		7A7B18C31D3282DB0014155F /* InformationPopOverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B18C21D3282DB0014155F /* InformationPopOverTableViewController.swift */; };
+		7A7B18C51D3283030014155F /* MainViewNavigationBarHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B18C41D3283030014155F /* MainViewNavigationBarHandler.swift */; };
+		7A7B18C71D3283580014155F /* MainAirportHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B18C61D3283580014155F /* MainAirportHandler.swift */; };
+		7A7B18C91D32837F0014155F /* MainTerminalChartHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B18C81D32837F0014155F /* MainTerminalChartHandler.swift */; };
 		7AB11FF81D2F06E3009C3160 /* Airport+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB11FEE1D2F06E3009C3160 /* Airport+CoreDataProperties.swift */; };
 		7AB11FFA1D2F06E3009C3160 /* ChartInfo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB11FF01D2F06E3009C3160 /* ChartInfo+CoreDataProperties.swift */; };
 		7AB11FFC1D2F06E3009C3160 /* Chart+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB11FF21D2F06E3009C3160 /* Chart+CoreDataProperties.swift */; };
@@ -57,6 +73,22 @@
 		7A3577851D2F36AA0077E5A2 /* ChartTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChartTableViewCell.swift; path = Views/TerminalCharts/ChartTableViewCell.swift; sourceTree = "<group>"; };
 		7A3577871D2F3D6F0077E5A2 /* OIII.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = OIII.json; path = CoreData/DataSources/OIII.json; sourceTree = "<group>"; };
 		7A3577891D2F40510077E5A2 /* AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppState.swift; path = Helpers/Enums/AppState.swift; sourceTree = "<group>"; };
+		7A7B18A71D326AD10014155F /* MainViewLeftNavigationBarHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewLeftNavigationBarHandler.swift; path = Controllers/MainExtensions/MainViewLeftNavigationBarHandler.swift; sourceTree = "<group>"; };
+		7A7B18AB1D326E070014155F /* AirportsTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AirportsTabBarViewController.swift; path = Controllers/AirportsTabBarViewController.swift; sourceTree = "<group>"; };
+		7A7B18AE1D327D260014155F /* TapGestureHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TapGestureHandler.swift; path = Controllers/MainExtensions/GestureRecognizers/TapGestureHandler.swift; sourceTree = "<group>"; };
+		7A7B18B01D327D350014155F /* LongPressGestureHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LongPressGestureHandler.swift; path = Controllers/MainExtensions/GestureRecognizers/LongPressGestureHandler.swift; sourceTree = "<group>"; };
+		7A7B18B21D327D430014155F /* PanGestureHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PanGestureHandler.swift; path = Controllers/MainExtensions/GestureRecognizers/PanGestureHandler.swift; sourceTree = "<group>"; };
+		7A7B18B41D327D530014155F /* PinchGestureHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PinchGestureHandler.swift; path = Controllers/MainExtensions/GestureRecognizers/PinchGestureHandler.swift; sourceTree = "<group>"; };
+		7A7B18B61D327D680014155F /* SwipeGestureHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwipeGestureHandler.swift; path = Controllers/MainExtensions/GestureRecognizers/SwipeGestureHandler.swift; sourceTree = "<group>"; };
+		7A7B18B81D327E3E0014155F /* MainSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainSegue.swift; path = Controllers/MainExtensions/MainSegue.swift; sourceTree = "<group>"; };
+		7A7B18BA1D327EA90014155F /* MainViewInterfaceHandlers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewInterfaceHandlers.swift; path = Controllers/MainExtensions/MainViewInterfaceHandlers.swift; sourceTree = "<group>"; };
+		7A7B18BC1D3282220014155F /* StatusBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StatusBarViewController.swift; path = Controllers/StatusBarViewController.swift; sourceTree = "<group>"; };
+		7A7B18BE1D3282720014155F /* SettingsPopOverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsPopOverViewController.swift; path = Controllers/NavigationBarExtensions/SettingsPopOverViewController.swift; sourceTree = "<group>"; };
+		7A7B18C01D3282AA0014155F /* LocationPopOverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationPopOverViewController.swift; path = Controllers/NavigationBarExtensions/LocationPopOverViewController.swift; sourceTree = "<group>"; };
+		7A7B18C21D3282DB0014155F /* InformationPopOverTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InformationPopOverTableViewController.swift; path = Controllers/NavigationBarExtensions/InformationPopOverTableViewController.swift; sourceTree = "<group>"; };
+		7A7B18C41D3283030014155F /* MainViewNavigationBarHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewNavigationBarHandler.swift; path = Controllers/MainExtensions/MainViewNavigationBarHandler.swift; sourceTree = "<group>"; };
+		7A7B18C61D3283580014155F /* MainAirportHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainAirportHandler.swift; path = Controllers/MainExtensions/MainAirportHandler.swift; sourceTree = "<group>"; };
+		7A7B18C81D32837F0014155F /* MainTerminalChartHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainTerminalChartHandler.swift; path = Controllers/MainExtensions/MainTerminalChartHandler.swift; sourceTree = "<group>"; };
 		7AB11FEE1D2F06E3009C3160 /* Airport+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Airport+CoreDataProperties.swift"; path = "CoreData/Entities/Airport+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		7AB11FF01D2F06E3009C3160 /* ChartInfo+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ChartInfo+CoreDataProperties.swift"; path = "CoreData/Entities/ChartInfo+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		7AB11FF21D2F06E3009C3160 /* Chart+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Chart+CoreDataProperties.swift"; path = "CoreData/Entities/Chart+CoreDataProperties.swift"; sourceTree = "<group>"; };
@@ -118,6 +150,13 @@
 		7A3577791D2F34C90077E5A2 /* MainExtensions */ = {
 			isa = PBXGroup;
 			children = (
+				7A7B18AD1D327CF60014155F /* GestureRecognizers */,
+				7A7B18A71D326AD10014155F /* MainViewLeftNavigationBarHandler.swift */,
+				7A7B18B81D327E3E0014155F /* MainSegue.swift */,
+				7A7B18BA1D327EA90014155F /* MainViewInterfaceHandlers.swift */,
+				7A7B18C41D3283030014155F /* MainViewNavigationBarHandler.swift */,
+				7A7B18C61D3283580014155F /* MainAirportHandler.swift */,
+				7A7B18C81D32837F0014155F /* MainTerminalChartHandler.swift */,
 			);
 			name = MainExtensions;
 			sourceTree = "<group>";
@@ -125,6 +164,9 @@
 		7A35777A1D2F34D10077E5A2 /* NavigationBarExtensions */ = {
 			isa = PBXGroup;
 			children = (
+				7A7B18BE1D3282720014155F /* SettingsPopOverViewController.swift */,
+				7A7B18C01D3282AA0014155F /* LocationPopOverViewController.swift */,
+				7A7B18C21D3282DB0014155F /* InformationPopOverTableViewController.swift */,
 			);
 			name = NavigationBarExtensions;
 			sourceTree = "<group>";
@@ -157,6 +199,25 @@
 				7A3577851D2F36AA0077E5A2 /* ChartTableViewCell.swift */,
 			);
 			name = TerminalCharts;
+			sourceTree = "<group>";
+		};
+		7A7B18A41D32647B0014155F /* AirportExtensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = AirportExtensions;
+			sourceTree = "<group>";
+		};
+		7A7B18AD1D327CF60014155F /* GestureRecognizers */ = {
+			isa = PBXGroup;
+			children = (
+				7A7B18AE1D327D260014155F /* TapGestureHandler.swift */,
+				7A7B18B01D327D350014155F /* LongPressGestureHandler.swift */,
+				7A7B18B21D327D430014155F /* PanGestureHandler.swift */,
+				7A7B18B41D327D530014155F /* PinchGestureHandler.swift */,
+				7A7B18B61D327D680014155F /* SwipeGestureHandler.swift */,
+			);
+			name = GestureRecognizers;
 			sourceTree = "<group>";
 		};
 		7AE139A91D2EE529008B6033 = {
@@ -202,11 +263,14 @@
 		7AE139CB1D2EE588008B6033 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				7A7B18A41D32647B0014155F /* AirportExtensions */,
 				7A35777C1D2F34E00077E5A2 /* TerminalChartsExtensions */,
 				7A35777B1D2F34D80077E5A2 /* StatusBarExtensions */,
 				7A35777A1D2F34D10077E5A2 /* NavigationBarExtensions */,
 				7A3577791D2F34C90077E5A2 /* MainExtensions */,
 				7AE139D21D2EE626008B6033 /* MainViewController.swift */,
+				7A7B18AB1D326E070014155F /* AirportsTabBarViewController.swift */,
+				7A7B18BC1D3282220014155F /* StatusBarViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -423,6 +487,7 @@
 			files = (
 				7A3577801D2F35330077E5A2 /* AppDelegate.swift in Sources */,
 				7AB1200D1D2F142A009C3160 /* Constants.swift in Sources */,
+				7A7B18AF1D327D260014155F /* TapGestureHandler.swift in Sources */,
 				7AE139DC1D2EE827008B6033 /* AFD.xcdatamodeld in Sources */,
 				7AB1201D1D2F1526009C3160 /* ApplicationHandler.swift in Sources */,
 				7AB11FF81D2F06E3009C3160 /* Airport+CoreDataProperties.swift in Sources */,
@@ -430,31 +495,46 @@
 				7AB120111D2F1457009C3160 /* UserDefaultsKeys.swift in Sources */,
 				7AE139EA1D2EE8E3008B6033 /* InterfaceHandler.swift in Sources */,
 				7AB1200A1D2F074D009C3160 /* ChartInfo.swift in Sources */,
+				7A7B18A81D326AD10014155F /* MainViewLeftNavigationBarHandler.swift in Sources */,
+				7A7B18B71D327D680014155F /* SwipeGestureHandler.swift in Sources */,
 				7AE139DE1D2EE86C008B6033 /* CoreDataHelper.swift in Sources */,
+				7A7B18BF1D3282720014155F /* SettingsPopOverViewController.swift in Sources */,
 				7A3577841D2F36400077E5A2 /* PageIndicatorView.swift in Sources */,
+				7A7B18BD1D3282220014155F /* StatusBarViewController.swift in Sources */,
 				7AE139E41D2EE8A3008B6033 /* ChartService.swift in Sources */,
+				7A7B18B31D327D430014155F /* PanGestureHandler.swift in Sources */,
 				7AB11FFC1D2F06E3009C3160 /* Chart+CoreDataProperties.swift in Sources */,
 				7AB11FFA1D2F06E3009C3160 /* ChartInfo+CoreDataProperties.swift in Sources */,
 				7AB120001D2F06E3009C3160 /* ChartContent+CoreDataProperties.swift in Sources */,
 				7AE139EC1D2EE8F9008B6033 /* LocationHandler.swift in Sources */,
 				7A35778A1D2F40510077E5A2 /* AppState.swift in Sources */,
+				7A7B18C11D3282AA0014155F /* LocationPopOverViewController.swift in Sources */,
 				7AB1200B1D2F074D009C3160 /* UserCustomize.swift in Sources */,
 				7AE139D31D2EE626008B6033 /* MainViewController.swift in Sources */,
+				7A7B18AC1D326E070014155F /* AirportsTabBarViewController.swift in Sources */,
+				7A7B18BB1D327EA90014155F /* MainViewInterfaceHandlers.swift in Sources */,
 				7A3577861D2F36AA0077E5A2 /* ChartTableViewCell.swift in Sources */,
+				7A7B18B11D327D350014155F /* LongPressGestureHandler.swift in Sources */,
 				7AB120191D2F14F2009C3160 /* StatusBarHandler.swift in Sources */,
 				7AE139E61D2EE8BA008B6033 /* ErrorHandler.swift in Sources */,
 				7AB120171D2F14D6009C3160 /* SeedData.swift in Sources */,
 				7AE139EE1D2EE908008B6033 /* Manager.swift in Sources */,
+				7A7B18B51D327D530014155F /* PinchGestureHandler.swift in Sources */,
 				7AE139E01D2EE87F008B6033 /* CoreDataStore.swift in Sources */,
 				7AB1201B1D2F1504009C3160 /* LogHandler.swift in Sources */,
 				7AB120081D2F074D009C3160 /* Chart.swift in Sources */,
 				7AB120131D2F1484009C3160 /* ChartPointerOrigin.swift in Sources */,
+				7A7B18B91D327E3E0014155F /* MainSegue.swift in Sources */,
 				7AB1200F1D2F1440009C3160 /* NotificationKeys.swift in Sources */,
 				7AB120071D2F074D009C3160 /* Airport.swift in Sources */,
 				7AE139E21D2EE892008B6033 /* AirportService.swift in Sources */,
+				7A7B18C71D3283580014155F /* MainAirportHandler.swift in Sources */,
 				7AB1201F1D2F1575009C3160 /* ErrorTypes.swift in Sources */,
 				7AB11FFE1D2F06E3009C3160 /* UserCustomize+CoreDataProperties.swift in Sources */,
 				7AB120211D2F1663009C3160 /* ChartType.swift in Sources */,
+				7A7B18C91D32837F0014155F /* MainTerminalChartHandler.swift in Sources */,
+				7A7B18C31D3282DB0014155F /* InformationPopOverTableViewController.swift in Sources */,
+				7A7B18C51D3283030014155F /* MainViewNavigationBarHandler.swift in Sources */,
 				7AB120091D2F074D009C3160 /* ChartContent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

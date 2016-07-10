@@ -1,10 +1,100 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="FbA-nt-LVa">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="FbA-nt-LVa">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
     </dependencies>
     <scenes>
+        <!--Search Airport-->
+        <scene sceneID="OTa-yf-W6F">
+            <objects>
+                <tableViewController title="Search Airport" id="UKQ-7y-LYt" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="i3b-Xj-WKd">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="800"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="j2v-0W-N3p">
+                                <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="j2v-0W-N3p" id="JgL-hI-JA5">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="UKQ-7y-LYt" id="z60-qV-3RF"/>
+                            <outlet property="delegate" destination="UKQ-7y-LYt" id="OYF-Sb-AN5"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" systemItem="search" id="IHW-dR-Ou2"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="800"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mbX-qW-bRT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="565" y="432"/>
+        </scene>
+        <!--Favorite Airport's-->
+        <scene sceneID="ruV-A5-Kcf">
+            <objects>
+                <tableViewController title="Favorite Airport's" id="imz-gn-vIw" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="BMP-Aw-Kbr">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="800"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.80000001190000003" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="WZR-Ms-VUm">
+                                <rect key="frame" x="0.0" y="50" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WZR-Ms-VUm" id="ElK-0l-u89">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="ahm-Zb-mco">
+                                <rect key="frame" x="0.0" y="94" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ahm-Zb-mco" id="DaL-RI-9n5">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="imz-gn-vIw" id="yYj-Em-Otk"/>
+                            <outlet property="delegate" destination="imz-gn-vIw" id="Mjk-wr-b4O"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" systemItem="favorites" id="3GQ-ia-aiR"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="800"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ycB-pj-Ifw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="997" y="432"/>
+        </scene>
+        <!--Airport-->
+        <scene sceneID="jsq-Ms-eyq">
+            <objects>
+                <tabBarController storyboardIdentifier="airportsTabBarViewController" title="Airport" id="TNx-vy-Mhi" customClass="AirportsTabBarViewController" customModule="AFD" customModuleProvider="target" sceneMemberID="viewController">
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="800"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="7AD-8y-rDQ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="imz-gn-vIw" kind="relationship" relationship="viewControllers" id="Wey-3C-PCU"/>
+                        <segue destination="UKQ-7y-LYt" kind="relationship" relationship="viewControllers" id="tqD-7T-pGY"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fgh-3J-YuW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1436" y="432"/>
+        </scene>
         <!--AFliteDeck Main-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -25,11 +115,117 @@
                                         <subviews>
                                             <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xaY-RO-KUk">
                                                 <rect key="frame" x="0.0" y="0.0" width="68" height="930"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lyK-Py-2HT">
+                                                        <rect key="frame" x="1" y="65" width="66" height="800"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VwY-mw-jkv">
+                                                                <rect key="frame" x="8" y="50" width="50" height="50"/>
+                                                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                <state key="normal" title="EnR">
+                                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                </state>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="krR-1n-x5o">
+                                                                <rect key="frame" x="8" y="120" width="50" height="50"/>
+                                                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="15"/>
+                                                                <state key="normal" title="TC">
+                                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                </state>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d2Z-d4-raf">
+                                                                <rect key="frame" x="8" y="200" width="50" height="50"/>
+                                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                                <state key="normal" title="ICAO▾">
+                                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                </state>
+                                                                <connections>
+                                                                    <action selector="leftNavigationBarICAOButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="95Q-ty-kXw"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f8e-z5-pf6">
+                                                                <rect key="frame" x="11" y="250" width="44" height="44"/>
+                                                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                                                                <state key="normal" title="REF">
+                                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                </state>
+                                                                <connections>
+                                                                    <action selector="leftNavigationBarREFButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a8q-Vx-vkc"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LuJ-Df-oPM">
+                                                                <rect key="frame" x="11" y="300" width="44" height="44"/>
+                                                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                                                                <state key="normal" title="STAR">
+                                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                </state>
+                                                                <connections>
+                                                                    <action selector="leftNavigationBarSTARButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GEF-LM-HIB"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YNx-Mn-MZB">
+                                                                <rect key="frame" x="11" y="350" width="44" height="44"/>
+                                                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                                                                <state key="normal" title="APP">
+                                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                </state>
+                                                                <connections>
+                                                                    <action selector="leftNavigationBarAPPButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WXg-26-UbK"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mz7-uq-BDL">
+                                                                <rect key="frame" x="11" y="400" width="44" height="44"/>
+                                                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                                                                <state key="normal" title="TAXI">
+                                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                </state>
+                                                                <connections>
+                                                                    <action selector="leftNavigationBarTAXIButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tay-uz-kWG"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V07-I8-oxr">
+                                                                <rect key="frame" x="11" y="450" width="44" height="44"/>
+                                                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                                                                <state key="normal" title="SID">
+                                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                </state>
+                                                                <connections>
+                                                                    <action selector="leftNavigationBarSIDButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W9Q-BN-eBI"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g4I-lm-K8g">
+                                                                <rect key="frame" x="11" y="701" width="44" height="44"/>
+                                                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="15"/>
+                                                                <state key="normal" title="Wx">
+                                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                </state>
+                                                                <connections>
+                                                                    <action selector="leftNavigationBarWxButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ab9-IW-79w"/>
+                                                                </connections>
+                                                            </button>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="◉" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wJF-XH-kVE">
+                                                                <rect key="frame" x="3" y="242" width="60" height="60"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="64"/>
+                                                                <color key="textColor" red="0.25098039220000001" green="0.75294117650000003" blue="1" alpha="0.5" colorSpace="calibratedRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" red="0.2509804368019104" green="0.5019608736038208" blue="0.75294125080108643" alpha="1" colorSpace="deviceRGB"/>
+                                                    </view>
+                                                </subviews>
                                                 <color key="backgroundColor" red="0.25098039220000001" green="0.50196078430000002" blue="0.75294117650000003" alpha="0.5" colorSpace="calibratedRGB"/>
                                             </view>
                                             <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JnI-ny-XdC">
                                                 <rect key="frame" x="68" y="0.0" width="240" height="930"/>
-                                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                <subviews>
+                                                    <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fXU-3g-OqN">
+                                                        <rect key="frame" x="0.0" y="0.0" width="240" height="930"/>
+                                                        <connections>
+                                                            <segue destination="XrF-1Y-9aT" kind="embed" id="CxL-oG-dtP"/>
+                                                        </connections>
+                                                    </containerView>
+                                                </subviews>
                                             </view>
                                             <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tfp-C1-0mg">
                                                 <rect key="frame" x="308" y="0.0" width="460" height="930"/>
@@ -51,31 +247,67 @@
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2PO-4n-Xfh">
                                 <rect key="frame" x="0.0" y="994" width="768" height="30"/>
-                                <color key="backgroundColor" red="0.25098039220000001" green="0.50196078430000002" blue="0.75294117650000003" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <subviews>
+                                    <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g0g-xf-P7n">
+                                        <rect key="frame" x="0.0" y="0.0" width="768" height="30"/>
+                                        <connections>
+                                            <segue destination="oNL-1T-1S0" kind="embed" id="d8N-ld-SXe"/>
+                                        </connections>
+                                    </containerView>
+                                </subviews>
                             </view>
                         </subviews>
                     </view>
                     <navigationItem key="navigationItem" title="Main View" id="FJo-qz-QKM">
                         <leftBarButtonItems>
-                            <barButtonItem image="ManualBarButton" id="Dlm-9U-iOS"/>
-                            <barButtonItem image="LocationBarButton" id="qUU-Ag-jgu"/>
+                            <barButtonItem image="ManualBarButton" id="Dlm-9U-iOS">
+                                <connections>
+                                    <action selector="mainNavigationBarManualButton:" destination="BYZ-38-t0r" id="Xmf-Nc-C42"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem image="LocationBarButton" id="qUU-Ag-jgu">
+                                <connections>
+                                    <action selector="mainNavigationBarNavigationButton:" destination="BYZ-38-t0r" id="hZF-ZE-KjE"/>
+                                </connections>
+                            </barButtonItem>
                         </leftBarButtonItems>
                         <rightBarButtonItems>
-                            <barButtonItem image="InformationBarButton" id="0X4-rw-svQ"/>
-                            <barButtonItem image="SettingsBarButton" id="fPZ-wY-SNV"/>
+                            <barButtonItem image="InformationBarButton" id="0X4-rw-svQ">
+                                <connections>
+                                    <action selector="informationNavigationBarSettingsButton:" destination="BYZ-38-t0r" id="hht-ai-MrB"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem image="SettingsBarButton" id="fPZ-wY-SNV">
+                                <connections>
+                                    <action selector="mainNavigationBarSettingsButton:" destination="BYZ-38-t0r" id="g0s-0G-pNh"/>
+                                </connections>
+                            </barButtonItem>
                         </rightBarButtonItems>
                     </navigationItem>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="MainFrameStackView" destination="U3v-kk-g3x" id="HtK-rD-WMr"/>
+                        <outlet property="circlePointerLabel" destination="wJF-XH-kVE" id="3bo-Jh-JVk"/>
+                        <outlet property="leftNavigationBarAPP" destination="YNx-Mn-MZB" id="ToN-eK-Jfw"/>
+                        <outlet property="leftNavigationBarICAO" destination="d2Z-d4-raf" id="dHN-Ly-5xq"/>
+                        <outlet property="leftNavigationBarREF" destination="f8e-z5-pf6" id="J6E-VW-Qt1"/>
+                        <outlet property="leftNavigationBarSID" destination="V07-I8-oxr" id="IJB-fH-VH4"/>
+                        <outlet property="leftNavigationBarSTAR" destination="LuJ-Df-oPM" id="mpQ-Me-QSQ"/>
+                        <outlet property="leftNavigationBarTAXI" destination="mz7-uq-BDL" id="ekQ-pH-NTc"/>
+                        <outlet property="leftNavigationBarWx" destination="g4I-lm-K8g" id="gjs-Yi-BIO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1065" y="319"/>
+            <point key="canvasLocation" x="2343" y="544"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="h3z-EG-rlD">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="FbA-nt-LVa" sceneMemberID="viewController">
                     <toolbarItems/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="200" height="200"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="gTy-gV-n48">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -87,14 +319,42 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8TK-cn-Iom" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="360" y="-585"/>
+            <point key="canvasLocation" x="2343" y="-343"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="QeQ-JD-1qJ">
+            <objects>
+                <viewController id="XrF-1Y-9aT" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mVP-ih-fkL">
+                        <rect key="frame" x="0.0" y="0.0" width="240" height="930"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.25098039220000001" green="0.75294117650000003" blue="1" alpha="0.5" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VOs-sH-mp3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1788" y="1242"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="0ts-eF-pp7">
+            <objects>
+                <viewController id="oNL-1T-1S0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="An5-MT-TrZ">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="30"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z87-6m-uwb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2343" y="1268"/>
         </scene>
     </scenes>
     <resources>
         <image name="BGThin" width="450" height="900"/>
-        <image name="InformationBarButton" width="16" height="16"/>
-        <image name="LocationBarButton" width="16" height="16"/>
-        <image name="ManualBarButton" width="16" height="16"/>
-        <image name="SettingsBarButton" width="16" height="16"/>
+        <image name="InformationBarButton" width="22" height="22"/>
+        <image name="LocationBarButton" width="22" height="22"/>
+        <image name="ManualBarButton" width="22" height="22"/>
+        <image name="SettingsBarButton" width="22" height="22"/>
     </resources>
 </document>
