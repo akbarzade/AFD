@@ -90,10 +90,10 @@ class ChartService {
         // MARK: - Fetching and Adding Airport to Chart From Available Airport on CoreData
         let airportsFetchRequest = NSFetchRequest(entityName: "Airport")
         let airports = (try self.coreDataHelper.backgroundContext!.executeFetchRequest(airportsFetchRequest)) as! [Airport]
-        let airport = airports.filter({ (a: Airport) -> Bool in
+        let airport =  airports.filter({ (a: Airport) -> Bool in
           return a.airportICAO == airportICAO
         }).first
-        
+
         chartEntity.airport = airport
         
         

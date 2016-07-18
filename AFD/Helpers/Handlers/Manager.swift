@@ -7,8 +7,18 @@
 //
 
 import Foundation
+import UIKit
 
 struct Manager {
+  
+  static var DeviceOrientation : UIInterfaceOrientation! {
+    willSet{
+      print("Manager.DeviceOrientation: Orientation is \(DeviceOrientation) and WillSet to \(newValue)")
+    }
+    didSet{
+      print("Manager.DeviceOrientation: Old value of Orientation is  \(oldValue) and Now it's seted to \(DeviceOrientation)")
+    }
+  }
   
   static var State: AppState! {
     willSet{
@@ -53,6 +63,9 @@ struct Manager {
     didSet{
       print("Manager.TerminalChartsTogglingStatus: Old value of Status is  \(oldValue) and Now it's seted to \(TerminalChartsTogglingStatus)")
       Defaults[.TerminalChartsTogglingStatus] = TerminalChartsTogglingStatus
+      if TerminalChartsTogglingStatus != oldValue {
+        NSNotificationCenter.defaultCenter().postNotificationName(NotificationKey.TerminalChartsTogglingStatusChangeNotificationKey, object: nil)
+      }
     }
   }
   

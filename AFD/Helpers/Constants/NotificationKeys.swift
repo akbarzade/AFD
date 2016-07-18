@@ -18,6 +18,9 @@ struct NotificationKey {
   
   /// Call This Notification when selecting an TerminalChart Type Navigation on the left side of UI
   static let TerminalChartTypeSelectionNotificationKey = "com.akbarzade.AFD.TerminalChartTypeSelectionNotificationKey"
+
+  /// Call This Notification when Toggling TerminalChartsTableView on the left side of UI
+  static let TerminalChartsTogglingStatusChangeNotificationKey = "com.akbarzade.AFD.TerminalChartsTogglingStatusChangeNotificationKey"
   
   /// Call This Notification when a TerminalChart Is Selected on the Table View Appeared on the left side of UI
   static let TerminalChartSelectionNotificationKey = "com.akbarzade.AFD.TerminalChartSelectionNotificationKey"

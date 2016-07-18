@@ -31,6 +31,7 @@ extension MainViewController{
   ///leftNavigationBarREFButton
   @IBAction func leftNavigationBarREFButton(sender: UIButton) {
     LogHandler.Log()
+    leftNavigationBarButtonHandler()
   }
   ///leftNavigationBarSTARButton
   @IBAction func leftNavigationBarSTARButton(sender: UIButton) {
@@ -53,5 +54,22 @@ extension MainViewController{
   ///leftNavigationBarWxButton
   @IBAction func leftNavigationBarWxButton(sender: UIButton) {
     LogHandler.Log()
+
+    let logAlert = UIAlertController(title: "Log's" , message: LogHandler.LogsCollector , preferredStyle: .Alert)
+    logAlert.addAction(UIAlertAction(title: "Dismiss", style: .Destructive, handler: nil))
+    self.presentViewController(logAlert, animated: true, completion: nil)
+  }
+  
+  
+  func leftNavigationBarButtonHandler(){
+    LogHandler.Log()
+    UIView.animateWithDuration(0.5) {self.terminalChartsTableStackView.hidden = !self.terminalChartsTableStackView.hidden }
+    Manager.TerminalChartsTogglingStatus = self.terminalChartsTableStackView.hidden
+    
+    if Manager.TerminalChartsTogglingStatus == true {
+      print("True meaning Hidding Terminal Charts Toggling Status")
+    } else if Manager.TerminalChartsTogglingStatus == false {
+      print("False meaning Showing Terminal Charts Toggling Status")
+    }
   }
 }

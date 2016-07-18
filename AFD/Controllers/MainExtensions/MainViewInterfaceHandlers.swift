@@ -9,9 +9,56 @@
 import Foundation
 import UIKit
 
-extension MainViewController {
+extension MainViewController : UIScrollViewDelegate {
+  
   override func didRotateFromInterfaceOrientation(fromInterfaceOrientation: UIInterfaceOrientation) {
     LogHandler.Log()
+    Manager.DeviceOrientation = fromInterfaceOrientation
+  }
+  
+  func setupTerminalChartContentLayout(){
+    guard  Manager.TerminalChartsTogglingStatus != nil else { return }
+    
+    if Manager.TerminalChartsTogglingStatus == true {
+      terminalChartContentStackView.frame.size.width = MainAreaView.frame.size.width - 68 - 240
+    } else if Manager.TerminalChartsTogglingStatus == false {
+      terminalChartContentStackView.frame.size.width = MainAreaView.frame.size.width - 68
+    }
+    
+    
+  }
+  
+  
+  func setupTerminalChartContentScrollView() {
+    terminalChartContentScrollView.frame = self.view.bounds
+    terminalChartContentScrollView.contentSize = terminalChartContentImageViewer.bounds.size
+    
+    terminalChartContentScrollView.minimumZoomScale = 1.0
+    terminalChartContentScrollView.maximumZoomScale = 3.0
+    terminalChartContentScrollView.delegate = self
+    
+  }
+  
+  func viewForZoomingInScrollView(scrollView: UIScrollView) -> UIView? {
+    for subview: AnyObject in terminalChartContentScrollView.subviews {
+      if subview.isKindOfClass(UIImageView){
+        return subview as? UIView
+      }
+    }
+    return nil
+  }
+
+  func scrollViewDidZoom(scrollView: UIScrollView) {
+    let contentImageViewerSize = terminalChartContentImageViewer.bounds.size
+    let contentScrollViewSize = terminalChartContentScrollView.bounds.size
+  
+  let verticalPadding = contentImageViewerSize.height < contentScrollViewSize.height ?
+    (contentScrollViewSize.height - contentImageViewerSize.height) / 2 : 0
+
+    let horizontalPadding = contentImageViewerSize.width < contentScrollViewSize.width ?
+    (contentScrollViewSize.width - contentImageViewerSize.width) / 2 : 0
+    
+    terminalChartContentScrollView.contentInset = UIEdgeInsets(top: verticalPadding, left: horizontalPadding, bottom: verticalPadding, right: horizontalPadding)
   }
   
   func refreshInterface(chartId: String) throws {

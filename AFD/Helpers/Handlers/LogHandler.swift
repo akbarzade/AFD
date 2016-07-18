@@ -19,7 +19,11 @@ struct LogHandler {
             self.CallCount[funcName]  = oldCallCount + 1
         }
         if let countTime = CallCount[funcName] {
-            print("Counted Time [\(countTime)] Function: \(funcName) Logged.")
+            let logOutput = "Counted Time [\(countTime)] Function: \(funcName) Logged."
+            print(logOutput)
+            LogHandler.LogsCollector.appendContentsOf("\n"+logOutput)
         }
     }
+
+    static var LogsCollector: String = "Logs Collection \n"
 }

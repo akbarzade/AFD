@@ -50,6 +50,7 @@
 		7AB1201D1D2F1526009C3160 /* ApplicationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB1201C1D2F1526009C3160 /* ApplicationHandler.swift */; };
 		7AB1201F1D2F1575009C3160 /* ErrorTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB1201E1D2F1575009C3160 /* ErrorTypes.swift */; };
 		7AB120211D2F1663009C3160 /* ChartType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB120201D2F1663009C3160 /* ChartType.swift */; };
+		7ABEA44A1D3418B100C311CD /* TerminalChartTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABEA4491D3418B100C311CD /* TerminalChartTableViewController.swift */; };
 		7AE139BB1D2EE52A008B6033 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AE139B91D2EE52A008B6033 /* Main.storyboard */; };
 		7AE139C01D2EE52A008B6033 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AE139BF1D2EE52A008B6033 /* Assets.xcassets */; };
 		7AE139C31D2EE52A008B6033 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AE139C11D2EE52A008B6033 /* LaunchScreen.storyboard */; };
@@ -110,6 +111,7 @@
 		7AB1201C1D2F1526009C3160 /* ApplicationHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApplicationHandler.swift; path = Helpers/Handlers/ApplicationHandler.swift; sourceTree = "<group>"; };
 		7AB1201E1D2F1575009C3160 /* ErrorTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ErrorTypes.swift; path = Helpers/Enums/ErrorTypes.swift; sourceTree = "<group>"; };
 		7AB120201D2F1663009C3160 /* ChartType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChartType.swift; path = Helpers/Enums/ChartType.swift; sourceTree = "<group>"; };
+		7ABEA4491D3418B100C311CD /* TerminalChartTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TerminalChartTableViewController.swift; path = Controllers/TerminalChartTableViewController.swift; sourceTree = "<group>"; };
 		7AE139B21D2EE529008B6033 /* AFD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AE139BA1D2EE52A008B6033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7AE139BF1D2EE52A008B6033 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -271,6 +273,7 @@
 				7AE139D21D2EE626008B6033 /* MainViewController.swift */,
 				7A7B18AB1D326E070014155F /* AirportsTabBarViewController.swift */,
 				7A7B18BC1D3282220014155F /* StatusBarViewController.swift */,
+				7ABEA4491D3418B100C311CD /* TerminalChartTableViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -527,6 +530,7 @@
 				7A7B18B91D327E3E0014155F /* MainSegue.swift in Sources */,
 				7AB1200F1D2F1440009C3160 /* NotificationKeys.swift in Sources */,
 				7AB120071D2F074D009C3160 /* Airport.swift in Sources */,
+				7ABEA44A1D3418B100C311CD /* TerminalChartTableViewController.swift in Sources */,
 				7AE139E21D2EE892008B6033 /* AirportService.swift in Sources */,
 				7A7B18C71D3283580014155F /* MainAirportHandler.swift in Sources */,
 				7AB1201F1D2F1575009C3160 /* ErrorTypes.swift in Sources */,
